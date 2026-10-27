@@ -51,8 +51,7 @@
 | [项目计划书.docx](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/项目计划书.docx) | 课程作业主文档，12,812 字，14 章 / 31 表 / 4 图（含三级 WBS 图、单代号网络图、甘特图） |
 | [项目汇报PPT.pptx](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/项目汇报PPT.pptx) | 汇报用 PPT，18 页（含三级 WBS、关键路径甘特图、PERT 概率表、成本分析页） |
 | [AI提示词与修改记录.md](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/AI提示词与修改记录.md) | 13 条 AI 提示词与修改过程，含 AI 出错与人工纠错的原始记录 |
-| [核心考点对照表.md](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/核心考点对照表.md) | WBS 图 / 工期与关键路径 / 按期概率 / 成本分析 四项核心考点的位置索引与答辩要点 |
-| [交付说明.md](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/交付说明.md) | 交付清单、演示步骤、答辩必答四点、待补真实数据 |
+| 项目原型 | https://n1h1-4.github.io/campus-food-locker-prototype/ |
 | [决策记录.md](https://github.com/N1H1-4/campus-food-locker-prototype/blob/main/docs/决策记录.md) | 12 条项目决策与被否方案 |
 
 ## 五、本地运行
