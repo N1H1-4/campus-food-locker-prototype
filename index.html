@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>校园智能外卖柜 · 三端联动原型（骑手 / 用户 / 运营）</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div id="storageWarn" class="storage-warn">⚠ 浏览器禁止本地存储（localStorage 不可写），本次操作不会被保存；请用 Chrome / Edge 双击打开本文件重试。</div>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">柜</span>
+    <div class="brand-text">
+      <h1>校园智能外卖柜 · 三端联动原型</h1>
+      <p>哈尔滨商业大学北校区 ｜ 6 点位 / 34 组 / 1,360 格口 ｜ 数据源：任务书/项目任务书_v1.md</p>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="#/rider" data-route="rider">① 骑手投柜端</a>
+    <a href="#/user" data-route="user">② 用户取餐端</a>
+    <a href="#/admin" data-route="admin">③ 运营后台</a>
+  </nav>
+  <div class="clockbox">
+    <div class="clock-title">模拟时钟 <span id="clockOffset" class="tag grey">真实时间</span></div>
+    <div id="clock" class="clock-value">--</div>
+    <div class="clock-actions">
+      <button class="btn tiny" data-action="ff" data-min="60">快进 1h</button>
+      <button class="btn tiny" data-action="ff" data-min="180">快进 3h</button>
+      <button class="btn tiny ghost" data-action="resetClock">回真实时间</button>
+      <button class="btn tiny danger" data-action="resetData">重置演示数据</button>
+    </div>
+  </div>
+</header>
+
+<main id="view" class="view-wrap"></main>
+
+<footer class="footer">
+  <div>本原型为课程大作业演示用：格口状态、订单、工单均为本地模拟数据（localStorage 持久化，刷新不丢失）；点位 / 柜型 / 组数 / 格口 / 工期 / 概算 / 效益口径全部取自任务书 v1，未另算一套。</div>
+  <div class="muted sm">超时计费、故障停机、种子订单为「假设值」，页面内已逐项标注。不建议用无痕模式打开（无痕关闭后数据会丢弃）。</div>
+</footer>
+
+<div id="toast" class="toast-wrap"></div>
+
+<script src="data/store.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/views.rider.js"></script>
+<script src="js/views.user.js"></script>
+<script src="js/views.admin.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
